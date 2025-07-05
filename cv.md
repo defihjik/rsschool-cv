@@ -66,4 +66,4 @@ int main()
 
 I have an incomplete general secondary education. I completed the course ***"Programming in JavaScript: Your Own Game in 5 Days"***, but to be honest, I don't remember anything, because it was a long time ago.
 
-My English level is **A1**.
+My English level is ***A1***.
