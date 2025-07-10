@@ -24,8 +24,8 @@
 }
 
 .bd {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     width: 40em;
 }
 .wt{
@@ -37,7 +37,10 @@
     width: 70%;
     background-color: #5ED1BA;
     color: white;
+    padding-left: 20px;
 }
 .h{
-    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
