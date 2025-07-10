@@ -1,0 +1,43 @@
+.photo {
+    border-radius: 55%;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+.z {
+    margin-top: -10px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    background-color: #8070D8;
+}
+
+.mn {
+    margin-top: -34px;
+    background-color: #6A94D4;
+}
+
+.dv {
+    display: flex;
+}
+
+.bd {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 40em;
+}
+.wt{
+    color: white;
+}
+.am{
+    background-color: #5ED1BA;
+    margin-top: -34px;
+    width: 70%;
+    background-color: #5ED1BA;
+    color: white;
+}
+.h{
+    padding-left: 20px;
+}
