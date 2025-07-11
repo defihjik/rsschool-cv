@@ -24,8 +24,11 @@
 }
 
 .bd {
-    margin-left: 25%;
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, 0%);
     width: 700px;
+    overflow: auto;
 }
 .wt{
     color: white;
@@ -35,10 +38,9 @@
     margin-top: -34px;
     width: 70%;
     font-size: 20px;
-    background-color: #5ED1BA;
     color: white;
     padding-left: 20px;
-    padding-right: 60px;
+    
 }
 .h{
     text-align: center;
