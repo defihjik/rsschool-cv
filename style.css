@@ -6,7 +6,6 @@
 }
 
 .z {
-    margin-top: -10px;
     text-align: center;
     font-size: 50px;
     line-height: 60px;
@@ -71,7 +70,4 @@ pc{
 }
 .mat{
     margin-top: -30px;
-}
-.tt{
-    margin-bottom: 10px;
 }
