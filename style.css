@@ -24,8 +24,8 @@
 }
 
 .bd {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: auto;
+    margin-right: auto;
     width: 40em;
 }
 .wt{
@@ -35,9 +35,43 @@
     background-color: #5ED1BA;
     margin-top: -34px;
     width: 70%;
+    font-size: 20px;
     background-color: #5ED1BA;
     color: white;
+    padding-left: 20px;
+    padding-right: 60px;
 }
 .h{
-    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.dv1 {
+    display: flex;
+    flex-direction: column;
+}
+.contacts{
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color: white;
+}
+.ca{
+    margin-top: 5px;
+}
+pc{
+    weight: 30%;
+}
+.re{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Times New Roman;
+}
+.mat{
+    margin-top: -30px;
+}
+.tt{
+    margin-bottom: 10px;
 }
