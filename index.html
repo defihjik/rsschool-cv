@@ -10,48 +10,59 @@
 </head>
 
 <body class="bd">
+
+    <header class="z1">
+        <nav class="ht">
+            <h1 class="z">My CV</h1>
+            <div>
+            <ul class="th">
+                <li class="lst"><a class="thmg" href="#abm">About Me</a></li>
+                <li class="lst"><a class="thmg" href="#con">Contacts</a></li>
+                <li class="lst"><a class="thmg" href="#cou">Сourses i have taken</a></li>
+                <li class="lst"><a class="thmg" href="#mc">My code</a></li>
+                <li class="lst"><a class="thmg" href="el">English level</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
     <main class="tt">
-        <h1 class="z">My CV</h1>
         <div class="dv">
             <div class="mn dv1">
                 <div class="pc">
                 <img class="photo" src="./9f4f7dfb-28f1-418c-b86d-7fbcebabb7d71.jpg" alt="My photo">
                 <h2 class="h">Eugeniy Kakhno</h2>
                 </div>
-                <div class="contacts">
+                <div class="contacts" id="cont">
                     <h2 class="ca">Contacts</h2>
-                    <pre class="re">Email:               
-k.2014.evgeniy@gmail.com
-                    </pre>
-                    <pre class="re mat">Telephone number: 
-+375 33 392 30 91
-                    </pre>
-                    <pre class="re mat">GitHub:
-definjik
-                    </pre>
+                    <ol class="re">
+                        <li>Email: k.2014.evgeniy@gmail.com</li>
+                        <li>Telephone number: +375333923091</li>
+                        <li>GitHub username: defihjik</li>
+                    </ol>
                 </div>
             </div>
-            <div class="am">
+            <div class="am" id="abm">
                 <h2 >About me</h2>
                 <p>
                     I am Evgeniy Kakhno. I live and learn in Gomel.
+                    I have an incomplete general secondary education
                     My goal is to become a Front-end developer.
                     My strengths: determination and ability to work in a team
                     I know the old programming language Pascal, but I haven’t 
                     used it for a long time. Instead, I use C++ and 
                     solve algorithmic problems in it. It is my first project.
                 </p>
-                <h2>Сourses i have taken</h2>
+                <h2 id="cou">Сourses i have taken</h2>
                 <p>
                     CodeBasics: CSS, HTML
                 </p>
-                <h2>This is an example of my code: </h2>
+                <h2 id="mc">This is an example of my code: </h2>
                 <pre class="code">
 cin>>s;
 int a=s*2;
 cout&lt;&lt a;
                 </pre>
-                <h2>My English level</h2>
+                <h2 id="el">My English level</h2>
                 <p>
                     My English level is A1.
                 </p>
